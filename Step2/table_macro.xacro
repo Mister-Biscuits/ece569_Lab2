@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<!-- File-level so both macros can see them -->
+<xacro:property name="table_length" value="4.0" />
+<xacro:property name="table_width" value="3.0" />
+<xacro:property name="table_height" value="2.3" />
+<xacro:property name="table_thickness" value="0.1" />
+<xacro:property name="leg_radius" value="0.1" />
+<xacro:property name="leg_length" value="${table_height - table_thickness}" />
+<xacro:property name="leg_x" value="${table_width/2 - leg_radius}" />
+<xacro:property name="leg_y" value="${table_length/2 - leg_radius}" />
+
+<xacro:macro name="table_leg" params="prefix name x y">
+  <joint name="${prefix}${name}_joint" type="fixed">
+    <parent link="${prefix}base_link" />
+    <child link="${prefix}${name}_link" />
+    <origin xyz="${x} ${y} 0" rpy="0 0 0" />
+  </joint>
+  <link name="${prefix}${name}_link">
+    <visual>
+      <origin xyz="0 0 ${leg_length/2}" rpy="0 0 0" />
+      <geometry>
+        <cylinder radius="${leg_radius}" length="${leg_length}" />
+      </geometry>
+      <material name="grey" />
+    </visual>
+  </link>
+</xacro:macro>
+
+<xacro:macro name="table" params="prefix parent *origin">
+  <joint name="${prefix}world_joint" type="fixed">
+    <xacro:insert_block name="origin" />
+    <parent link="${parent}" />
+    <child link="${prefix}base_link" />
+  </joint>
+
+  <link name="${prefix}base_link">
+    <visual>
+      <origin xyz="0 0 ${table_height - table_thickness/2}" rpy="0 0 0" />
+      <geometry>
+        <box size="${table_width} ${table_length} ${table_thickness}" />
+      </geometry>
+      <material name="brown" />
+    </visual>
+  </link>
+
+  <xacro:table_leg prefix="${prefix}" name="leg1" x="${leg_x}"  y="${leg_y}" />
+  <xacro:table_leg prefix="${prefix}" name="leg2" x="${-leg_x}" y="${leg_y}" />
+  <xacro:table_leg prefix="${prefix}" name="leg3" x="${leg_x}"  y="${-leg_y}" />
+  <xacro:table_leg prefix="${prefix}" name="leg4" x="${-leg_x}" y="${-leg_y}" />
+</xacro:macro>
+
+</robot>
