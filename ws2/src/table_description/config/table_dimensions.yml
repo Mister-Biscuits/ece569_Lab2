@@ -1,0 +1,7 @@
+# Table dimensions in meters
+table:
+  length: 4.0      # along y
+  width: 3.0       # along x
+  height: 2.3      # floor to top surface
+  thickness: 0.1   # tabletop thickness
+  leg_radius: 0.1

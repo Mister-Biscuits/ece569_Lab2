@@ -1,6 +1,8 @@
 package.xml
 setup.cfg
 setup.py
+config/rrbot_dimensions.yaml
+launch/test_rrbot_description.launch.py
 resource/rrbot_description
 rrbot_description/__init__.py
 rrbot_description.egg-info/PKG-INFO
@@ -10,3 +12,7 @@ rrbot_description.egg-info/entry_points.txt
 rrbot_description.egg-info/requires.txt
 rrbot_description.egg-info/top_level.txt
 rrbot_description.egg-info/zip-safe
+rviz/rrbot_default.rviz
+urdf/materials.xacro
+urdf/rrbot.urdf.xacro
+urdf/rrbot_macro.xacro
