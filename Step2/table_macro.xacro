@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-<!-- File-level so both macros can see them -->
 <xacro:property name="table_length" value="4.0" />
 <xacro:property name="table_width" value="3.0" />
 <xacro:property name="table_height" value="2.3" />
@@ -44,6 +43,13 @@
       <material name="brown" />
     </visual>
   </link>
+
+  <joint name="${prefix}top_joint" type="fixed">
+    <parent link="${prefix}base_link" />
+    <child link="${prefix}top_link" />
+    <origin xyz="0 0 ${table_height}" rpy="0 0 0" />
+  </joint>
+  <link name="${prefix}top_link" />
 
   <xacro:table_leg prefix="${prefix}" name="leg1" x="${leg_x}"  y="${leg_y}" />
   <xacro:table_leg prefix="${prefix}" name="leg2" x="${-leg_x}" y="${leg_y}" />

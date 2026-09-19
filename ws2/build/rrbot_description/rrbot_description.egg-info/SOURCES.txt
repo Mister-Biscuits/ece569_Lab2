@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/rrbot_description
+rrbot_description/__init__.py
+rrbot_description.egg-info/PKG-INFO
+rrbot_description.egg-info/SOURCES.txt
+rrbot_description.egg-info/dependency_links.txt
+rrbot_description.egg-info/entry_points.txt
+rrbot_description.egg-info/requires.txt
+rrbot_description.egg-info/top_level.txt
+rrbot_description.egg-info/zip-safe

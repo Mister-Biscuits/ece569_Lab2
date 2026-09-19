@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating rrbot_description.egg-info
+writing rrbot_description.egg-info/PKG-INFO
+writing dependency_links to rrbot_description.egg-info/dependency_links.txt
+writing entry points to rrbot_description.egg-info/entry_points.txt
+writing requirements to rrbot_description.egg-info/requires.txt
+writing top-level names to rrbot_description.egg-info/top_level.txt
+writing manifest file 'rrbot_description.egg-info/SOURCES.txt'
+reading manifest file 'rrbot_description.egg-info/SOURCES.txt'
+writing manifest file 'rrbot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/lib/python3.10/site-packages/rrbot-description.egg-link (link to .)
+
+Installed /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description
+running symlink_data
+creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/ament_index
+creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/ament_index/resource_index
+creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/ament_index/resource_index/packages
+symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/resource/rrbot_description -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/ament_index/resource_index/packages
+symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/package.xml -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description
