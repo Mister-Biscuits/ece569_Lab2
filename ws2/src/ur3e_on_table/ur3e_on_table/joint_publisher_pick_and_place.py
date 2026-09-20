@@ -40,8 +40,8 @@ class JointPublisherPickAndPlace(Node):
         self.timer = self.create_timer(self.timer_period, self.timer_callback)
 
         # define your start/end points
-        self.p1 = np.array([10.0, 13.0, -22.0, 31.0, -21.0, -13.0])
-        self.p2 = np.array([-11.0, 17.0, -15.0, -13.0, -11.0, -12.0])
+        self.p1 = np.array([10.0, 13.0, 22.0, 31.0, 21.0, 13.0])
+        self.p2 = np.array([11.0, 14.0, 23.0, 31.0, 21.0, 13.0])
 
     def timer_callback(self):
         t = self.i * self.timer_period
