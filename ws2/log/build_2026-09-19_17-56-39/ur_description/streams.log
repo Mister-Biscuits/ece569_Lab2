@@ -1,0 +1,7 @@
+[0.490s] Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description': CMAKE_PREFIX_PATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description:/opt/ros/humble /usr/bin/cmake /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description
+[0.554s] [31mCMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+[0.554s]   CMake 3.25.1 or higher is required.  You are running version 3.22.1
+[0.554s] 
+[0.554s] [0m
+[0.555s] -- Configuring incomplete, errors occurred!
+[0.562s] Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description' returned '1': CMAKE_PREFIX_PATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description:/opt/ros/humble /usr/bin/cmake /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description

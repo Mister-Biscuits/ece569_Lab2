@@ -1,0 +1,18 @@
+[1.676s] Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/build --no-deps symlink_data
+[2.013s] running develop
+[2.242s] running egg_info
+[2.242s] creating ur3e_on_table.egg-info
+[2.242s] writing ur3e_on_table.egg-info/PKG-INFO
+[2.243s] writing dependency_links to ur3e_on_table.egg-info/dependency_links.txt
+[2.243s] writing entry points to ur3e_on_table.egg-info/entry_points.txt
+[2.244s] writing requirements to ur3e_on_table.egg-info/requires.txt
+[2.244s] writing top-level names to ur3e_on_table.egg-info/top_level.txt
+[2.245s] writing manifest file 'ur3e_on_table.egg-info/SOURCES.txt'
+[2.249s] reading manifest file 'ur3e_on_table.egg-info/SOURCES.txt'
+[2.249s] writing manifest file 'ur3e_on_table.egg-info/SOURCES.txt'
+[2.251s] running build_ext
+[2.251s] Creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/lib/python3.10/site-packages/ur3e-on-table.egg-link (link to .)
+[2.253s] 
+[2.253s] Installed /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table
+[2.253s] running symlink_data
+[2.334s] Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table' returned '0': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/build --no-deps symlink_data

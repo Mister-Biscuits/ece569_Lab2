@@ -1,0 +1,31 @@
+[1.488s] Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/build --no-deps symlink_data
+[1.754s] running develop
+[1.922s] running egg_info
+[1.922s] creating ur3e_on_table.egg-info
+[1.924s] writing ur3e_on_table.egg-info/PKG-INFO
+[1.924s] writing dependency_links to ur3e_on_table.egg-info/dependency_links.txt
+[1.924s] writing entry points to ur3e_on_table.egg-info/entry_points.txt
+[1.924s] writing requirements to ur3e_on_table.egg-info/requires.txt
+[1.924s] writing top-level names to ur3e_on_table.egg-info/top_level.txt
+[1.925s] writing manifest file 'ur3e_on_table.egg-info/SOURCES.txt'
+[1.928s] reading manifest file 'ur3e_on_table.egg-info/SOURCES.txt'
+[1.929s] writing manifest file 'ur3e_on_table.egg-info/SOURCES.txt'
+[1.929s] running build_ext
+[1.929s] Creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/lib/python3.10/site-packages/ur3e-on-table.egg-link (link to .)
+[1.931s] 
+[1.931s] Installed /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table
+[1.932s] running symlink_data
+[1.932s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ament_index
+[1.932s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ament_index/resource_index
+[1.932s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ament_index/resource_index/packages
+[1.932s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/resource/ur3e_on_table -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ament_index/resource_index/packages
+[1.932s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/package.xml -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table
+[1.932s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/config
+[1.932s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/launch
+[1.933s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/launch/view_ur3e_on_table.launch.py -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/launch
+[1.933s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/launch/test_ur3e_on_table.launch.py -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/launch
+[1.933s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/rviz
+[1.933s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/rviz/ur3e_on_table_default.rviz -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/rviz
+[1.933s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/urdf
+[1.933s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/urdf/ur3e_on_table.urdf.xacro -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/urdf
+[1.963s] Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table' returned '0': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/build --no-deps symlink_data

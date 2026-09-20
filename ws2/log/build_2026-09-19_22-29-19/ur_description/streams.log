@@ -1,0 +1,247 @@
+[0.727s] Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description:/opt/ros/humble /usr/bin/cmake /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description
+[0.803s] -- The C compiler identification is GNU 11.4.0
+[0.861s] -- The CXX compiler identification is GNU 11.4.0
+[0.868s] -- Detecting C compiler ABI info
+[0.937s] -- Detecting C compiler ABI info - done
+[0.951s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.951s] -- Detecting C compile features
+[0.951s] -- Detecting C compile features - done
+[0.952s] -- Detecting CXX compiler ABI info
+[1.043s] -- Detecting CXX compiler ABI info - done
+[1.050s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.051s] -- Detecting CXX compile features
+[1.051s] -- Detecting CXX compile features - done
+[1.053s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.238s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.311s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.345s] -- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.594s] -- Configuring done
+[2.597s] -- Generating done
+[2.598s] -- Build files have been written to: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description
+[2.603s] Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description:/opt/ros/humble /usr/bin/cmake /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description
+[2.603s] Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description:/opt/ros/humble /usr/bin/cmake --build /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description -- -j4 -l4
+[2.637s] Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description:/opt/ros/humble /usr/bin/cmake --build /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description -- -j4 -l4
+[2.646s] Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description:/opt/ros/humble /usr/bin/cmake --install /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description
+[2.652s] -- Install configuration: ""
+[2.653s] -- Execute custom install script
+[2.655s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/initial_positions.yaml
+[2.662s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[2.670s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[2.677s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[2.685s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[2.692s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[2.700s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[2.708s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[2.716s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[2.724s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur12e/default_kinematics.yaml
+[2.735s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur12e/joint_limits.yaml
+[2.741s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur12e/physical_parameters.yaml
+[2.748s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur12e/visual_parameters.yaml
+[2.757s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur15/default_kinematics.yaml
+[2.764s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur15/joint_limits.yaml
+[2.772s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur15/physical_parameters.yaml
+[2.780s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur15/visual_parameters.yaml
+[2.787s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[2.795s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[2.803s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[2.812s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[2.819s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur18/default_kinematics.yaml
+[2.828s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur18/joint_limits.yaml
+[2.836s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur18/physical_parameters.yaml
+[2.844s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur18/visual_parameters.yaml
+[2.851s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[2.859s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[2.867s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[2.874s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[2.882s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[2.890s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[2.898s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[2.906s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[2.915s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[2.924s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[2.932s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[2.940s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[2.947s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[2.955s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[2.964s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[2.971s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[2.979s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[2.987s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[2.995s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[3.003s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[3.011s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[3.019s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[3.028s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[3.035s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[3.044s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur7e/default_kinematics.yaml
+[3.052s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur7e/joint_limits.yaml
+[3.060s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur7e/physical_parameters.yaml
+[3.068s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur7e/visual_parameters.yaml
+[3.076s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur8long/default_kinematics.yaml
+[3.083s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur8long/joint_limits.yaml
+[3.092s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur8long/physical_parameters.yaml
+[3.099s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/config/ur8long/visual_parameters.yaml
+[3.108s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[3.116s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/launch/view_ur.launch.xml
+[3.127s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[3.135s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[3.143s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[3.150s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[3.159s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[3.167s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[3.175s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[3.182s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[3.191s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[3.198s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[3.207s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[3.215s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[3.223s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[3.231s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[3.239s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[3.247s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[3.255s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[3.263s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[3.271s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[3.278s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[3.286s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[3.294s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[3.301s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[3.310s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[3.317s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[3.327s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[3.335s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[3.343s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[3.350s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/LICENSE.txt
+[3.359s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/collision/base.stl
+[3.367s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/collision/forearm.stl
+[3.375s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/collision/shoulder.stl
+[3.382s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/collision/upperarm.stl
+[3.391s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/collision/wrist1.stl
+[3.398s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/collision/wrist2.stl
+[3.406s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/collision/wrist3.stl
+[3.414s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/visual/UR15_DIFF_8bit_2K.jpg
+[3.424s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/visual/base.dae
+[3.431s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/visual/forearm.dae
+[3.440s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/visual/shoulder.dae
+[3.448s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/visual/upperarm.dae
+[3.456s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/visual/wrist1.dae
+[3.464s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/visual/wrist2.dae
+[3.472s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur15/visual/wrist3.dae
+[3.480s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[3.487s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[3.495s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[3.502s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[3.511s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur18/LICENSE.txt
+[3.518s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur18/collision/forearm.stl
+[3.528s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur18/collision/upperarm.stl
+[3.536s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur18/visual/UR18_DIFF_8bit_2K.jpg
+[3.543s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur18/visual/forearm.dae
+[3.551s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur18/visual/upperarm.dae
+[3.560s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[3.567s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[3.575s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[3.582s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[3.590s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[3.598s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[3.606s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[3.613s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[3.621s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[3.631s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[3.640s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[3.648s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[3.658s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[3.666s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[3.673s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[3.682s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[3.693s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[3.700s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[3.709s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[3.716s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[3.726s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[3.733s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[3.742s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[3.749s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[3.759s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[3.767s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[3.775s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[3.783s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[3.792s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[3.800s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[3.809s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[3.817s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[3.826s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[3.834s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[3.842s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[3.849s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[3.859s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[3.866s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[3.874s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[3.882s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[3.889s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[3.897s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[3.905s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[3.913s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[3.923s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[3.930s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[3.938s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[3.945s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[3.952s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[3.961s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[3.969s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[3.977s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[3.985s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[3.993s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[4.001s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[4.010s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[4.017s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[4.027s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[4.034s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[4.042s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[4.050s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[4.059s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[4.067s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[4.074s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[4.082s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[4.090s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[4.098s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[4.106s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[4.114s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[4.122s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[4.131s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[4.139s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[4.147s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[4.155s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[4.163s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[4.172s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[4.179s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[4.186s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[4.194s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur8long/LICENSE.txt
+[4.202s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur8long/collision/forearm.stl
+[4.210s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur8long/collision/upperarm.stl
+[4.218s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur8long/visual/UR8Long_DIFF_8bit_2K.jpg
+[4.227s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur8long/visual/forearm.dae
+[4.235s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/meshes/ur8long/visual/upperarm.dae
+[4.243s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[4.251s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[4.260s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[4.267s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[4.275s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[4.283s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[4.290s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[4.298s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[4.306s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[4.315s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[4.324s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[4.332s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[4.340s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/environment/path.sh
+[4.348s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/environment/path.dsv
+[4.356s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/local_setup.bash
+[4.365s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/local_setup.sh
+[4.373s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/local_setup.zsh
+[4.380s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/local_setup.dsv
+[4.388s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/package.dsv
+[4.396s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[4.403s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[4.412s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[4.420s] -- Symlinking: /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/package.xml
+[4.431s] Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description:/opt/ros/humble /usr/bin/cmake --install /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description

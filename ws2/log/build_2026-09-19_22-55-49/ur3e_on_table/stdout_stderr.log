@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating ur3e_on_table.egg-info
+writing ur3e_on_table.egg-info/PKG-INFO
+writing dependency_links to ur3e_on_table.egg-info/dependency_links.txt
+writing entry points to ur3e_on_table.egg-info/entry_points.txt
+writing requirements to ur3e_on_table.egg-info/requires.txt
+writing top-level names to ur3e_on_table.egg-info/top_level.txt
+writing manifest file 'ur3e_on_table.egg-info/SOURCES.txt'
+reading manifest file 'ur3e_on_table.egg-info/SOURCES.txt'
+writing manifest file 'ur3e_on_table.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/lib/python3.10/site-packages/ur3e-on-table.egg-link (link to .)
+
+Installed /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table
+running symlink_data
+creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ament_index
+creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ament_index/resource_index
+creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ament_index/resource_index/packages
+symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/resource/ur3e_on_table -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ament_index/resource_index/packages
+symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/package.xml -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table
+creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/config
+creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/launch
+symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/launch/view_ur3e_on_table.launch.py -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/launch
+symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/launch/test_ur3e_on_table.launch.py -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/launch
+creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/rviz
+symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/rviz/ur3e_on_table_default.rviz -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/rviz
+creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/urdf
+symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/urdf/ur3e_on_table.urdf.xacro -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/urdf
+symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/urdf/materials.xacro -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/urdf

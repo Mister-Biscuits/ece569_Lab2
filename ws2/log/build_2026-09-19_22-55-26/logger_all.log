@@ -1,0 +1,285 @@
+[0.108s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.108s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78c6ec6df880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78c6ec6deef0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78c6ec6deef0>>, mixin_verb=('build',))
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.264s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_description) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrbot_description' with type 'ros.ament_python' and name 'rrbot_description'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/table_description) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/table_description) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/table_description) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/table_description) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/table_description) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/table_description) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/table_description) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/table_description) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/table_description) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/table_description' with type 'ros.ament_python' and name 'table_description'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_on_table) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_on_table) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_on_table) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_on_table) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_on_table) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_on_table) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_on_table) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_on_table) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3e_on_table) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur3e_on_table' with type 'ros.ament_python' and name 'ur3e_on_table'
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.319s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install
+[0.320s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'rrbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description', 'merge_install': False, 'path': '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/rrbot_description', 'symlink_install': True, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'table_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'table_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description', 'merge_install': False, 'path': '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/table_description', 'symlink_install': True, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ur3e_on_table' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ur3e_on_table' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ur3e_on_table' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ur3e_on_table' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ur3e_on_table' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ur3e_on_table' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ur3e_on_table' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ur3e_on_table' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ur3e_on_table' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'ur3e_on_table' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table', 'merge_install': False, 'path': '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/ur3e_on_table', 'symlink_install': True, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description', 'merge_install': False, 'path': '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/Universal_Robots_ROS2_Description', 'symlink_install': True, 'test_result_base': None}
+[0.358s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.360s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.361s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/rrbot_description' with build type 'ament_python'
+[0.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description', 'ament_prefix_path')
+[0.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/hook/ament_prefix_path.ps1'
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/hook/ament_prefix_path.dsv'
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/hook/ament_prefix_path.sh'
+[0.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.371s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/table_description' with build type 'ament_python'
+[0.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('table_description', 'ament_prefix_path')
+[0.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/share/table_description/hook/ament_prefix_path.ps1'
+[0.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/share/table_description/hook/ament_prefix_path.dsv'
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/share/table_description/hook/ament_prefix_path.sh'
+[0.374s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.377s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/ur3e_on_table' with build type 'ament_python'
+[0.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3e_on_table', 'ament_prefix_path')
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/hook/ament_prefix_path.ps1'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/hook/ament_prefix_path.dsv'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/share/ur3e_on_table/hook/ament_prefix_path.sh'
+[0.380s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.392s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/Universal_Robots_ROS2_Description' with build type 'ament_cmake'
+[0.392s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/Universal_Robots_ROS2_Description'
+[0.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.652s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/rrbot_description'
+[0.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.885s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/table_description'
+[0.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.135s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/src/ur3e_on_table'
+[1.135s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description:/opt/ros/humble /usr/bin/cmake --build /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description -- -j4 -l4
+[1.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description:/opt/ros/humble /usr/bin/cmake --build /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description -- -j4 -l4
+[1.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description:/opt/ros/humble /usr/bin/cmake --install /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description
+[1.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description' for CMake module files
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description' for CMake config files
+[1.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description:/opt/ros/humble /usr/bin/cmake --install /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/bin'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/lib/python3.10/site-packages'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/bin'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/package.ps1'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/package.dsv'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/package.sh'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/package.bash'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/package.zsh'
+[1.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/colcon-core/packages/ur_description)
+[1.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description' for CMake module files
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description' for CMake config files
+[1.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/bin'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.267s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/lib/python3.10/site-packages'
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/bin'
+[1.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/package.ps1'
+[1.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/package.dsv'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/package.sh'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/package.bash'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/ur_description/package.zsh'
+[1.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur_description/share/colcon-core/packages/ur_description)
+[1.499s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install, build, develop, nosetests, install_headers, bdist_dumb, clean, install_lib, rotate, register, build_py, symlink_data, build_ext, upload_docs, upload, install_data, install_egg_info, bdist_wheel, saveopts, alias, setopt, bdist_rpm, dist_info, build_scripts, bdist_egg, bdist, sdist, build_clib, egg_info, check, test, install_scripts, easy_install
+[1.524s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install, build, develop, nosetests, install_headers, bdist_dumb, clean, install_lib, rotate, register, build_py, symlink_data, build_ext, upload_docs, upload, install_data, install_egg_info, bdist_wheel, saveopts, alias, setopt, bdist_rpm, dist_info, build_scripts, bdist_egg, bdist, sdist, build_clib, egg_info, check, test, install_scripts, easy_install
+[1.528s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install, build, develop, nosetests, install_headers, bdist_dumb, clean, install_lib, rotate, register, build_py, symlink_data, build_ext, upload_docs, upload, install_data, install_egg_info, bdist_wheel, saveopts, alias, setopt, bdist_rpm, dist_info, build_scripts, bdist_egg, bdist, sdist, build_clib, egg_info, check, test, install_scripts, easy_install
+[1.760s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --quiet, --multi-version, --index-url, --prefix, --optimize, --site-dirs, --no-deps, --record, --find-links, --exclude-scripts, --always-copy, --user, --dry-run, --upgrade, --version, --verbose, --allow-hosts, --zip-ok, --editable, --install-dir, --always-unzip, --script-dir, --build-directory, --force-installation-into-system-dir, --egg-path, --install-layout, --no-find-links, --help, --local-snapshots-ok, --no-user-cfg, --uninstall
+[1.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description/build --no-deps symlink_data
+[1.811s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --quiet, --multi-version, --index-url, --prefix, --optimize, --site-dirs, --no-deps, --record, --find-links, --exclude-scripts, --always-copy, --user, --dry-run, --upgrade, --version, --verbose, --allow-hosts, --zip-ok, --editable, --install-dir, --always-unzip, --script-dir, --build-directory, --force-installation-into-system-dir, --egg-path, --install-layout, --no-find-links, --help, --local-snapshots-ok, --no-user-cfg, --uninstall
+[1.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/build --no-deps symlink_data
+[1.824s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --quiet, --multi-version, --index-url, --prefix, --optimize, --site-dirs, --no-deps, --record, --find-links, --exclude-scripts, --always-copy, --user, --dry-run, --upgrade, --version, --verbose, --allow-hosts, --zip-ok, --editable, --install-dir, --always-unzip, --script-dir, --build-directory, --force-installation-into-system-dir, --egg-path, --install-layout, --no-find-links, --help, --local-snapshots-ok, --no-user-cfg, --uninstall
+[1.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/build --no-deps symlink_data
+[2.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('table_description', 'pythonpath_develop')
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description/share/table_description/hook/pythonpath_develop.ps1'
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description/share/table_description/hook/pythonpath_develop.dsv'
+[2.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description/share/table_description/hook/pythonpath_develop.sh'
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description' for CMake module files
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description' for CMake config files
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/lib'
+[2.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description' returned '0': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description/build --no-deps symlink_data
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/bin'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/lib/pkgconfig/table_description.pc'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/lib/python3.10/site-packages'
+[2.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('table_description', 'pythonpath')
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/share/table_description/hook/pythonpath.ps1'
+[2.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/share/table_description/hook/pythonpath.dsv'
+[2.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/share/table_description/hook/pythonpath.sh'
+[2.204s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/bin'
+[2.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(table_description)
+[2.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/share/table_description/package.ps1'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/share/table_description/package.dsv'
+[2.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/share/table_description/package.sh'
+[2.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/share/table_description/package.bash'
+[2.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/share/table_description/package.zsh'
+[2.207s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/share/colcon-core/packages/table_description)
+[2.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description', 'pythonpath_develop')
+[2.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/share/rrbot_description/hook/pythonpath_develop.ps1'
+[2.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description' returned '0': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/build --no-deps symlink_data
+[2.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/share/rrbot_description/hook/pythonpath_develop.dsv'
+[2.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/share/rrbot_description/hook/pythonpath_develop.sh'
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description' for CMake module files
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description' for CMake config files
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/lib'
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/bin'
+[2.261s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/lib/pkgconfig/rrbot_description.pc'
+[2.261s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/lib/python3.10/site-packages'
+[2.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description', 'pythonpath')
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/hook/pythonpath.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/hook/pythonpath.dsv'
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/hook/pythonpath.sh'
+[2.262s] Level 1:colcon.colcon_core.environment:checking '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/bin'
+[2.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_description)
+[2.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/package.ps1'
+[2.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/package.dsv'
+[2.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/package.sh'
+[2.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/package.bash'
+[2.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/package.zsh'
+[2.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/colcon-core/packages/rrbot_description)
+[2.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table' returned '1': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/ur3e_on_table/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur3e_on_table/build --no-deps symlink_data
+[2.295s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.295s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.295s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.295s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.300s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.314s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/local_setup.ps1'
+[2.315s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/_local_setup_util_ps1.py'
+[2.316s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/setup.ps1'
+[2.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/local_setup.sh'
+[2.318s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/_local_setup_util_sh.py'
+[2.319s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/setup.sh'
+[2.320s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/local_setup.bash'
+[2.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/setup.bash'
+[2.322s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/local_setup.zsh'
+[2.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/setup.zsh'

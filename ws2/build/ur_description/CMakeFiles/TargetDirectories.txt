@@ -1,0 +1,9 @@
+/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description/CMakeFiles/uninstall.dir
+/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description/CMakeFiles/ur_description_uninstall.dir
+/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description/CMakeFiles/test.dir
+/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description/CMakeFiles/edit_cache.dir
+/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description/CMakeFiles/rebuild_cache.dir
+/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description/CMakeFiles/list_install_components.dir
+/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description/CMakeFiles/install.dir
+/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description/CMakeFiles/install/local.dir
+/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/ur_description/CMakeFiles/install/strip.dir

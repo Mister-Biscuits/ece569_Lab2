@@ -1,0 +1,5 @@
+[console_scripts]
+lissajous = ur3e_on_table.joint_publisher_lissajous:main
+pick_and_place = ur3e_on_table.joint_publisher_pick_and_place:main
+test = ur3e_on_table.joint_publisher_test:main
+

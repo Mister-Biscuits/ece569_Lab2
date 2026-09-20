@@ -1,0 +1,16 @@
+[1.353s] Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description/build --no-deps symlink_data
+[1.597s] running develop
+[1.762s] running egg_info
+[1.762s] writing table_description.egg-info/PKG-INFO
+[1.762s] writing dependency_links to table_description.egg-info/dependency_links.txt
+[1.762s] writing entry points to table_description.egg-info/entry_points.txt
+[1.762s] writing requirements to table_description.egg-info/requires.txt
+[1.762s] writing top-level names to table_description.egg-info/top_level.txt
+[1.764s] reading manifest file 'table_description.egg-info/SOURCES.txt'
+[1.765s] writing manifest file 'table_description.egg-info/SOURCES.txt'
+[1.766s] running build_ext
+[1.766s] Creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/lib/python3.10/site-packages/table-description.egg-link (link to .)
+[1.767s] 
+[1.767s] Installed /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description
+[1.767s] running symlink_data
+[1.797s] Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description' returned '0': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/table_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/table_description/build --no-deps symlink_data

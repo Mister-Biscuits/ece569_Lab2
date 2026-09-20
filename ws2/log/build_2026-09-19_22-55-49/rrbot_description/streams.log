@@ -1,0 +1,34 @@
+[1.494s] Invoking command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/build --no-deps symlink_data
+[1.842s] running develop
+[2.057s] running egg_info
+[2.057s] creating rrbot_description.egg-info
+[2.058s] writing rrbot_description.egg-info/PKG-INFO
+[2.058s] writing dependency_links to rrbot_description.egg-info/dependency_links.txt
+[2.059s] writing entry points to rrbot_description.egg-info/entry_points.txt
+[2.059s] writing requirements to rrbot_description.egg-info/requires.txt
+[2.059s] writing top-level names to rrbot_description.egg-info/top_level.txt
+[2.060s] writing manifest file 'rrbot_description.egg-info/SOURCES.txt'
+[2.062s] reading manifest file 'rrbot_description.egg-info/SOURCES.txt'
+[2.062s] writing manifest file 'rrbot_description.egg-info/SOURCES.txt'
+[2.064s] running build_ext
+[2.064s] Creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/lib/python3.10/site-packages/rrbot-description.egg-link (link to .)
+[2.065s] 
+[2.065s] Installed /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description
+[2.066s] running symlink_data
+[2.066s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/ament_index
+[2.066s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/ament_index/resource_index
+[2.067s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/ament_index/resource_index/packages
+[2.067s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/resource/rrbot_description -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/ament_index/resource_index/packages
+[2.067s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/package.xml -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description
+[2.067s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/config
+[2.068s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/config/rrbot_dimensions.yaml -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/config
+[2.068s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/launch
+[2.068s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/launch/test_rrbot_description.launch.py -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/launch
+[2.069s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/rviz
+[2.069s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/rviz/rrbot_default.rviz -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/rviz
+[2.069s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/urdf
+[2.069s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/urdf/rrbot.urdf.xacro -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/urdf
+[2.069s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/urdf/materials.xacro -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/urdf
+[2.069s] symbolically linking /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/urdf/rrbot_macro.xacro -> /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/urdf
+[2.070s] creating /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/share/rrbot_description/urdf/rrbot
+[2.105s] Invoked command in '/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description' returned '0': PYTHONPATH=/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/install/rrbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/skyler/Documents/ece569-fall2026/ece569_Lab2/ws2/build/rrbot_description/build --no-deps symlink_data
